@@ -1,80 +1,71 @@
 # World Happiness Tableau Analysis
 
-An interactive data visualization project exploring global happiness trends across countries from 2015 to 2017.
+A data visualization project exploring global happiness data from 2015 to 2017.
 
-This project was completed for **DS 4200: Information Presentation and Visualization** at Northeastern University. It combines Python-based data analysis with Tableau visualizations to explore differences in happiness across countries and regions.
+This project was completed for **DS 4200: Information Presentation and Visualization** at Northeastern University. The project combines Python-based data analysis with Tableau to explore and visualize World Happiness data across multiple years.
 
 ## Project Overview
 
-The goal of this project was to analyze World Happiness data and communicate patterns through interactive visualizations.
+The project uses World Happiness datasets from 2015, 2016, and 2017.
 
-The analysis uses data from:
+Python and Jupyter Notebook were used to work with the datasets, while Tableau was used to create visualizations for exploring the data.
 
-- 2015
-- 2016
-- 2017
+The project demonstrates the process of moving from raw data to analysis and visual communication.
 
-The project examines how happiness varies across countries and explores the factors associated with differences in happiness scores.
+## Technologies
 
-## Tools & Technologies
+- Python
+- Pandas
+- Jupyter Notebook
+- Tableau
+- CSV
 
-- **Tableau** — Interactive dashboards and visualizations
-- **Python** — Data analysis and preprocessing
-- **Pandas** — Data manipulation
-- **Jupyter Notebook** — Exploratory analysis
-- **CSV** — World Happiness datasets
+## Repository Structure
 
-## Project Structure
+    world-happiness-tableau-analysis/
+    │
+    ├── README.md
+    │
+    ├── data/
+    │   ├── 2015.csv
+    │   ├── 2016.csv
+    │   └── 2017.csv
+    │
+    ├── notebooks/
+    │   └── world_happiness_analysis.ipynb
+    │
+    └── tableau/
+        └── world_happiness_dashboard.twb
 
-```text
-world-happiness-tableau-analysis/
-│
-├── README.md
-├── data/
-│   ├── 2015.csv
-│   ├── 2016.csv
-│   └── 2017.csv
-├── notebooks/
-│   └── world_happiness_analysis.ipynb
-├── tableau/
-│   └── world_happiness_dashboard.twb
-├── report/
-│   └── world_happiness_report.pdf
-└── demo/
-    └── dashboard_demo.mp4
-```
+## Data
 
-## Analysis
+The `data/` directory contains the World Happiness datasets used in the project:
 
-The project combines multiple years of World Happiness data to investigate how happiness differs across countries and changes over time.
+- `2015.csv`
+- `2016.csv`
+- `2017.csv`
 
-The analysis focuses on identifying patterns in the data and presenting those patterns through clear, interactive visualizations.
+These datasets provide happiness-related information for countries around the world across three years.
 
-## Tableau Dashboard
+## Python Analysis
 
-The Tableau portion of the project transforms the analysis into interactive visualizations that allow users to explore global happiness patterns.
+The `notebooks/` directory contains the Jupyter Notebook used to work with and analyze the World Happiness datasets.
 
-**Interactive Tableau Dashboard:**  
-[Add Tableau Public link here]
+The notebook demonstrates the data analysis portion of the project before the results are presented visually.
 
-## Key Findings
+## Tableau Visualization
 
-- [Add finding from your analysis]
-- [Add finding from your analysis]
-- [Add finding from your analysis]
+The `tableau/` directory contains the Tableau workbook used to visualize the World Happiness data.
 
-## Demo
+The Tableau component provides a visual way to explore patterns within the datasets and compare happiness data across countries and years.
 
-A video demonstration of the Tableau project is available in the `demo/` directory.
+## Course
 
-## Coursework
-
-**Course:** DS 4200 — Information Presentation and Visualization  
-**Institution:** Northeastern University
+**DS 4200 — Information Presentation and Visualization**  
+Northeastern University
 
 ## Author
 
-**Shawn Tribuce**
-
+**Shawn Tribuce**  
 Data Science & Economics  
 Northeastern University
